@@ -5,7 +5,7 @@ android {
         Debug {
             keyAlias 'naviband-debug'
             keyPassword 'mVfVaEoQ6daSCaZPYUqe'
-            storeFile file('C:/Users/cn/Desktop/Project/NaviBand/naviband.debug.keystore')
+            storeFile file('C:/Users/cn/Desktop/Project/NaviBand-Android/naviband.debug.keystore')
             storePassword 'mVfVaEoQ6daSCaZPYUqe'
         }
     }
@@ -36,8 +36,7 @@ android {
 }
 
 dependencies {
-//    compileOnly fileTree(include: ['*.jar'], dir: 'libs')
-
+    //    compileOnly fileTree(include: ['*.jar'], dir: 'libs')
     api 'com.akexorcist:bluetoothspp:1.0.0'
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'

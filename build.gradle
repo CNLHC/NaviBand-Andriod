@@ -3,10 +3,6 @@
 buildscript {
     
     repositories {
-        maven{
-            url:"http://nexus.cnworkshop.xyz:6081/repository/ali-maven-proxy/"
-            
-        }
         google()
         jcenter()
     }
