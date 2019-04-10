@@ -27,6 +27,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".NBConnectActivity"></activity>
 
+        <activity android:name="app.akexorcist.bluetoothspp.DeviceList" />
         <meta-data
             android:name="com.amap.api.v2.apikey"
             android:value="e3506bb6f58a7566b02201070a03c7ac" />
